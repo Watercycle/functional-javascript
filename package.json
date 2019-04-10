@@ -1,0 +1,31 @@
+{
+  "name": "functional-js",
+  "version": "1.0.3",
+  "description": "An intuitive library",
+  "main": "dist/functional-js.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript",
+    "standard",
+    "library"
+  ],
+  "author": "Matthew Spero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Watercycle/inferno-render-delay.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "inferno": "^7.1.11",
+    "jest": "^24.7.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "babel-jest": "^24.7.1"
+  }
+}
